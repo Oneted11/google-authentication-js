@@ -22,25 +22,7 @@ document.getElementById("gisLib").onload = function () {
   });
   // google.accounts.id.prompt();
 };
-// console.log({ token, client });
-// function getToken() {
-//   client.requestAccessToken();
-//   console.log("get>>>>>>>>>>>>>>>>>>>>>", { token, client });
-// }
 
-// function revokeToken() {
-//   google.accounts.oauth2.revoke(token, () => {
-//     console.log("access token revoked", window.jwt_decode(token));
-// console.log(
-//   "revoke>>>>>>>>>>>>>>>>>>>>>>>>>",
-//   token,
-//   window.jwt_decode(token, { header: true }),
-//   client
-// );
-//   });
-// }
-// document.getElementById("getT").onclick = getToken();
-// document.getElementById("revokeT").onclick = revokeToken();
 function showData() {
   document.getElementById(
     "profile_data"
